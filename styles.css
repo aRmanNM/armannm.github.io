@@ -1,36 +1,44 @@
 html,
 body {
   height: 100%;
-  margin: 0;
+  margin: 0px;
 }
 
 .container {
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   min-height: 100%;
   font-family: 'Quicksand', sans-serif;
   font-size: large;
   text-align: center;
+  background: white;
 }
 
 .links {
   flex-direction: row;
 }
 
-.links a {
-  color: grey;
+.links a, p {
+  color: black;
 }
 
 a {
     text-decoration: none;
 }
 
-h1 {
-    color: black;
-}
-
 h3 {
     color: grey;
+}
+
+img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #424242;
+  border-width: 2px;
+  width: 200px;
+  height: 200px;
 }
