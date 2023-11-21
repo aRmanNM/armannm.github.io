@@ -34,7 +34,7 @@ h3 {
     color: grey;
 }
 
-img {
+.avatar img {
   border-radius: 50%;
   border-style: solid;
   border-color: #424242;
