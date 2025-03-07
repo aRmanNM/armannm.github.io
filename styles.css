@@ -1,48 +1,51 @@
 html,
 body {
   height: 100%;
-  margin: 0px;
+  text-align: center;
+  margin-top: 10px;
+  /* font-family: "Quicksand";
+  font-weight: 100;
+  font-size: large; */
 }
 
-.container {
+hr {
+  width: 50%;
+}
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  min-height: 100%;
-  font-family: 'Quicksand', sans-serif;
-  font-size: large;
-  text-align: center;
-  background: white;
+.contact a {
+  font-size: x-large;
+  margin: 0 5px;
+  text-decoration: none;
 }
 
 .links {
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
 }
 
-.links a, p {
-  color: black;
+.links ul {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
 }
 
-a {
-    text-decoration: none;
+.links li {
+  margin: 10px;
 }
 
-h3 {
-    color: grey;
+.fa-envelope {
+  color: #e73f30;
 }
 
-.avatar img {
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #424242;
-  border-width: 2px;
-  width: 200px;
-  height: 200px;
+.fa-github {
+  color: #1a1e22;
 }
 
-.enamad {
-  margin-top: 40px;
+.fa-linkedin {
+  color: #0077af;
+}
+
+.enamad img {
+  width: 50px;
+  opacity: 30%;
 }
