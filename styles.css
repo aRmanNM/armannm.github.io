@@ -3,9 +3,13 @@ body {
   height: 100%;
   text-align: center;
   margin-top: 10px;
-  /* font-family: "Quicksand";
-  font-weight: 100;
+  font-family: "Quicksand";
+  /* font-weight: 100;
   font-size: large; */
+}
+
+.avatar img {
+  border-radius: 10%;
 }
 
 hr {
@@ -33,6 +37,10 @@ hr {
   margin: 10px;
 }
 
+.links a {
+  text-decoration: none;
+}
+
 .fa-envelope {
   color: #e73f30;
 }
@@ -47,5 +55,5 @@ hr {
 
 .enamad img {
   width: 50px;
-  opacity: 30%;
+  opacity: 5%;
 }
