@@ -1,19 +1,7 @@
 html,
 body {
-  height: 100%;
   text-align: center;
-  margin-top: 10px;
-  font-family: "Quicksand";
-  /* font-weight: 100;
-  font-size: large; */
-}
-
-.avatar img {
-  border-radius: 10%;
-}
-
-hr {
-  width: 50%;
+  font-family: "sans";
 }
 
 .contact a {
@@ -35,6 +23,7 @@ hr {
 
 .links li {
   margin: 10px;
+  text-decoration: none;
 }
 
 .links a {
